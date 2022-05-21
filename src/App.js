@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <h1>Dictionary App📖🔍</h1>
         <header className="App-header"></header>
         <main>
           <Dictionary defaultKeyword="sunset" />
