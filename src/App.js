@@ -11,8 +11,24 @@ function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Project coded by Marium Bajwa, open-source on Github, and hosted on
-            Netlify.{" "}
+            Project coded by Marium Bajwa,{" "}
+            <a
+              href="https://github.com/Mjb222/dictionary"
+              rel="noreferrer"
+              target="_blank"
+            >
+              {" "}
+              open-source project on GitHub,{" "}
+            </a>
+            and
+            <a
+              href="https://legendary-kitten-36e6cf.netlify.app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              {" "}
+              hosted on Netlify
+            </a>
           </small>
         </footer>
       </div>
