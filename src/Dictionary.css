@@ -18,3 +18,9 @@
   border: 1px solid #ddd;
   border-radius: 6px;
 }
+.searchbutton {
+  border-radius: 100px;
+}
+.form {
+  border-radius: 100px;
+}
