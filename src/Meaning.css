@@ -5,6 +5,6 @@
 }
 .Meaning .example {
   font-style: italic;
-  color: crimson;
+  color: rgb(240, 126, 20);
   margin-top: 10px;
 }
