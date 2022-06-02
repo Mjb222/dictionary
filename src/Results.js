@@ -17,13 +17,10 @@ export default function Results(props) {
             );
           })}
         </section>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <section key={index}>
-              <Meaning meaning={meaning} />
-            </section>
-          );
-        })}
+
+        <section>
+          <Meaning meaning={props.results.meanings[0]} />
+        </section>
       </div>
     );
   } else {
